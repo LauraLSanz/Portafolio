@@ -18,26 +18,26 @@ p {
   line-height: 30px;
 }
 
-.hero {
+.content-container {
   background-color: var(--first-color);
   text-align: center;
   padding: 60px 120px;
   color: var(--fourth-color);
 }
 
-.hero h1 {
+.content-container h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   font-weight: bold;
 }
-.hero h2 {
+.content-container h2 {
   font-family: var(--default-font-family);
   font-size: 24px;
   font-weight: semibold;
   margin: 0;
   color: var(--third-colorcolor);
 }
-.hero h3 {
+.content-container h3 {
   font-family: var(--default-font-family);
   font-size: 18px;
   font-weight: normal;
@@ -78,20 +78,95 @@ p {
 .project-description {
   padding: 40px 60px;
 }
+.subpage-hero {
+  margin: 50px 140px;
+}
+.about-container {
+  background: none;
+  text-align: left;
+  padding: 50px 88px;
+}
+
+.about-paragraph {
+  padding: 10px 78px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.about-section {
+  padding: 100px 80px;
+}
+
+.about-img {
+  width: 560px;
+  padding: 80px;
+}
+
+.sign-up {
+  padding: 49px 119px;
+  margin: 78px 140px;
+}
+
+.sign-up h2 {
+  font-weight: semibold;
+  margin: 0;
+  color: var(--third-colorcolor);
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: bold;
+  text-align: left;
+}
+.sign-up h3 {
+  text-align: left;
+}
+.about-mail a {
+  font-family: var(--default-font-family);
+  font-size: 25px;
+  color: var(--fourth-color);
+  font-weight: 500;
+  text-decoration: none;
+}
 
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
     text-align: center;
   }
-  .hero h1 {
+  .content-container h1 {
     font-size: 44px;
   }
   h2 {
     font-size: 36px;
     line-height: 1.5;
   }
-  .hero {
-    padding: 80px 20px;
+  .subpage-hero {
+    display: block;
+
+    margin: 0 auto;
+  }
+  .about-container,
+  .about-paragraph {
+    margin: 20px;
+    padding: 15px;
+  }
+  .about-img {
+    margin: 0px;
+    padding: 1px 40px;
+  }
+  .sign-up {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+  }
+  .sign-up h2 {
+    font-size: 36px;
+    line-height: 2;
+  }
+  .sign-up h3 {
+    line-height: 1.5;
+  }
+
+  .about-mail a {
+    font-size: 16px;
   }
 }
