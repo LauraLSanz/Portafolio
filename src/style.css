@@ -95,6 +95,7 @@ p {
 }
 .about-container h1 {
   font-family: var(--heading-font-family);
+  font-size: 54px;
 }
 .about-container {
   background: none;
