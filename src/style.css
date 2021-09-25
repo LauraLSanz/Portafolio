@@ -14,7 +14,7 @@ h1 {
 }
 h2 {
   font-family: var(--default-font-family);
-  font-size: 54px;
+  font-size: 24px;
   color: var(--fourth-color);
 }
 h3 {
@@ -93,11 +93,11 @@ p {
 .subpage-hero {
   margin: 50px 140px;
 }
-.about-container h1 {
+.heading-container h1 {
   font-family: var(--heading-font-family);
   font-size: 54px;
 }
-.about-container {
+.heading-container {
   background: none;
   text-align: left;
   padding: 50px 88px;
@@ -163,26 +163,26 @@ p {
   .subpage-hero {
     margin: 40px 0px;
   }
-  .about-container {
+  .heading-container {
     margin: 10px 10px;
     padding: 10px 10px;
   }
 
-  .about-container,
+  .heading-container,
   .about-paragraph {
     margin: 20px;
     padding: 15px;
     text-align: justify;
   }
-  .about-container h1 {
+  .heading-container h1 {
     font-size: 44px;
     line-height: 53px;
   }
 
-  .about-container h3 {
+  .heading-container h3 {
     font-size: 24px;
   }
-  .about-container btn {
+  .heading-container btn {
     display: block;
     margin: 0 auto;
   }
