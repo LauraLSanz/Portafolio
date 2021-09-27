@@ -17,7 +17,7 @@
   max-height: 70px;
 }
 nav {
-  padding: 10px 0;
+  padding: 10px 0px;
 }
 
 nav li {
@@ -146,7 +146,7 @@ p {
 }
 
 .about-paragraph {
-  padding: 10px 78px;
+  padding: 10px 63px;
   text-align: justify;
   font-size: 16px;
 }
@@ -158,6 +158,7 @@ p {
 .about-img {
   width: 560px;
   padding: 80px;
+  border-radius: 10px;
 }
 
 footer {
@@ -167,7 +168,6 @@ footer {
 .sign-up {
   padding: 49px 119px;
   margin: 78px 140px;
-  border-radius: 10px;
 }
 
 .sign-up h2 {
@@ -209,7 +209,8 @@ a {
   text-decoration: none;
   color: black;
 }
-a:hover {
+a:hover,
+#email:hover {
   color: var(--third-color);
   transition: all 100ms ease-in-out;
 }
@@ -305,5 +306,9 @@ a:hover {
     padding: 0px 0px;
     margin: 100px -129px;
     font-size: 20px;
+  }
+  #email:hover {
+    color: var(--third-color);
+    transition: all 100ms ease-in-out;
   }
 }
