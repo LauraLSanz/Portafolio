@@ -135,6 +135,16 @@ p {
   padding: 50px 88px;
 }
 
+.heading-contact-container h1 {
+  font-family: var(--heading-font-family);
+  font-size: 54px;
+}
+.heading-contact-container {
+  background: none;
+  text-align: left;
+  padding: 50px 88px;
+}
+
 .about-paragraph {
   padding: 10px 78px;
   text-align: justify;
@@ -150,9 +160,14 @@ p {
   padding: 80px;
 }
 
+footer {
+  margin: 100px 140px;
+}
+
 .sign-up {
   padding: 49px 119px;
   margin: 78px 140px;
+  border-radius: 10px;
 }
 
 .sign-up h2 {
@@ -167,13 +182,29 @@ p {
 .sign-up h3 {
   text-align: left;
 }
-.about-mail a {
+
+.sign-up a {
+  margin-top: 31px;
+}
+
+#email {
   font-family: var(--default-font-family);
   font-size: 25px;
   color: var(--fourth-color);
   font-weight: 500;
   text-decoration: none;
 }
+.social-links a {
+  color: var(--fourth-color);
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 14px;
+  margin: 60px 20px 0px 20px;
+  background-color: var(--first-color);
+  border-radius: 50px;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -199,7 +230,7 @@ a:hover {
 
   .project-description {
     padding: 0px 14px;
-    text-align: justify;
+    text-align: center;
   }
   .content-container h1 {
     font-size: 44px;
@@ -207,6 +238,11 @@ a:hover {
   h2 {
     font-size: 36px;
     line-height: 1.5;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+    text-align: center;
   }
   .subpage-hero {
     margin: 40px 0px;
@@ -222,13 +258,18 @@ a:hover {
     padding: 15px;
     text-align: justify;
   }
-  .heading-container h1 {
-    font-size: 44px;
+  .heading-container h1,
+  .heading-contact-container h1 {
+    font-size: 34px;
     line-height: 53px;
+    text-align: center;
+  }
+  .heading-contact-container h2 {
+    font-size: 24px;
   }
 
-  .heading-container h3 {
-    font-size: 24px;
+  .heading-contact-container h3 {
+    font-size: 18px;
   }
   .heading-container btn {
     display: block;
@@ -257,5 +298,12 @@ a:hover {
 
   .about-mail a {
     font-size: 16px;
+  }
+
+  #email {
+    text-align: center;
+    padding: 0px 0px;
+    margin: 100px -129px;
+    font-size: 20px;
   }
 }
