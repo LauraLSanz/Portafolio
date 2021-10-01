@@ -220,7 +220,7 @@ a:hover,
     font-size: 14px;
   }
   nav ul {
-    margin: 8px;
+    margin: 7px;
     padding: 0px;
   }
 
@@ -310,5 +310,12 @@ a:hover,
   #email:hover {
     color: var(--third-color);
     transition: all 100ms ease-in-out;
+  }
+
+  .githublink {
+    margin: -88px -51px;
+    padding: 2px 0px;
+    font-size: 10px;
+    line-height: 1.5;
   }
 }
